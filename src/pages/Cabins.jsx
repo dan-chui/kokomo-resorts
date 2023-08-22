@@ -13,7 +13,10 @@ function Cabins() {
       <Heading as="h1">All cabins</Heading>
       <p>TEST</p>
 
-      <img src="https://bqdbwkbvuswcmeuiqkmf.supabase.co/storage/v1/object/public/cabin-images/cabin-standard.webp" />
+      <img
+        src="https://bqdbwkbvuswcmeuiqkmf.supabase.co/storage/v1/object/public/cabin-images/cabin-standard.webp"
+        alt="cabins over water"
+      />
     </Row>
   );
 }
