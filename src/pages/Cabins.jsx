@@ -11,7 +11,7 @@ function Cabins() {
   return (
     <>
       <Row type="horizontal">
-        <Heading as="h1">All cabins</Heading>
+        <Heading as="h1">All Cabins</Heading>
         <p>Filter / Sort</p>
       </Row>
 
@@ -19,7 +19,7 @@ function Cabins() {
         <CabinTable />
 
         <Button onClick={() => setShowForm((show) => !show)}>
-          Add new cabin
+          Add New Cabin
         </Button>
         {showForm && <CreateCabinForm />}
       </Row>
