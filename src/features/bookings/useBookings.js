@@ -14,8 +14,7 @@ export function useBookings() {
       ? null
       : { field: "status", value: filterValue };
 
-  //SORT
-
+  // SORT
   const sortByRaw = searchParams.get("sortBy") || "startDate-desc";
   const [field, direction] = sortByRaw.split("-");
   const sortBy = { field, direction };
@@ -33,7 +32,7 @@ export function useBookings() {
     queryFn: () => getBookings({ filter, sortBy, page }),
   });
 
-  // PRE-FETCH DATA
+  // PRE-FETCH
   const pageCount = Math.ceil(count / PAGE_SIZE);
 
   if (page < pageCount)
