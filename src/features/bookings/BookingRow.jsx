@@ -8,7 +8,7 @@ import Menus from "../../ui/Menus";
 
 import { formatCurrency } from "../../utils/helpers";
 import { formatDistanceFromNow } from "../../utils/helpers";
-import { HiEye } from "react-icons/hi2";
+import { HiArrowDownOnSquare, HiEye } from "react-icons/hi2";
 
 const Cabin = styled.div`
   font-size: 1.6rem;
@@ -91,8 +91,17 @@ function BookingRow({
             icon={<HiEye />}
             onClick={() => navigate(`/bookings/${bookingId}`)}
           >
-            See details
+            See Details
           </Menus.Button>
+
+          {status === "unconfirmed" && (
+            <Menus.Button
+              icon={<HiArrowDownOnSquare />}
+              onClick={() => navigate(`/checkin/${bookingId}`)}
+            >
+              Check in
+            </Menus.Button>
+          )}
         </Menus.List>
       </Menus.Menu>
     </Table.Row>

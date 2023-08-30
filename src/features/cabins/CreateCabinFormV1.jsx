@@ -39,7 +39,7 @@ function CreateCabinForm() {
     <Form onSubmit={handleSubmit(onSubmit, onError)}>
       {/* <FormRow>
         <Label htmlFor="name">Cabin name</Label> */}
-      <FormRow label="Cabin name" error={errors?.name?.message}>
+      <FormRow label="Bungalow name" error={errors?.name?.message}>
         <Input
           type="text"
           id="name"
@@ -118,7 +118,7 @@ function CreateCabinForm() {
         />
       </FormRow>
 
-      <FormRow label="Cabin photo">
+      <FormRow label="Bungalow photo">
         <FileInput
           id="image"
           accept="image/*"
@@ -128,12 +128,12 @@ function CreateCabinForm() {
         />
       </FormRow>
 
-      <FormRow label="Cabin photo">
+      <FormRow label="Bungalow photo">
         {/* type is an HTML attribute! */}
         <Button variation="secondary" type="reset">
           Cancel
         </Button>
-        <Button disabled={isCreating}>Add cabin</Button>
+        <Button disabled={isCreating}>Add Bungalow</Button>
       </FormRow>
     </Form>
   );
