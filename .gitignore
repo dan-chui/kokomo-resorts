@@ -22,4 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Misc
 Thumbs.db
+
+# dotenv environment variables file
+.env
+.env.test

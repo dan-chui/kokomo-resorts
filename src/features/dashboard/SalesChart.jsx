@@ -72,12 +72,28 @@ function SalesChart({ bookings, numDays }) {
             tickLine={{ stroke: colors.text }}
           />
           <YAxis
-            unit="$"
+            width={100}
             tick={{ fill: colors.text }}
             tickLine={{ stroke: colors.text }}
+            tickFormatter={(value) =>
+              value.toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD",
+                minimumFractionDigits: 0,
+              })
+            }
           />
           <CartesianGrid strokeDasharray="4" />
-          <Tooltip contentStyle={{ backgroundColor: colors.background }} />
+          <Tooltip
+            contentStyle={{ backgroundColor: colors.background }}
+            formatter={(value) =>
+              value.toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD",
+                minimumFractionDigits: 0,
+              })
+            }
+          />
           <Area
             dataKey="totalSales"
             type="monotone"
@@ -85,7 +101,6 @@ function SalesChart({ bookings, numDays }) {
             fill={colors.totalSales.fill}
             strokeWidth={2}
             name="Total sales"
-            unit="$"
           />
           <Area
             dataKey="extrasSales"
@@ -94,7 +109,6 @@ function SalesChart({ bookings, numDays }) {
             fill={colors.extrasSales.fill}
             strokeWidth={2}
             name="Extras sales"
-            unit="$"
           />
         </AreaChart>
       </ResponsiveContainer>
