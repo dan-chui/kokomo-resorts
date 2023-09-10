@@ -25,6 +25,7 @@ function SignupForm() {
     <Form onSubmit={handleSubmit(onSubmit)}>
       <FormRow label="Full Name" error={errors?.fullName?.message}>
         <Input
+          value="Dan Chui"
           type="text"
           id="fullName"
           disabled={isLoading}
@@ -34,6 +35,7 @@ function SignupForm() {
 
       <FormRow label="Email Address" error={errors?.email?.message}>
         <Input
+          value="dan@example.com"
           type="email"
           id="email"
           disabled={isLoading}
@@ -52,6 +54,7 @@ function SignupForm() {
         error={errors?.password?.message}
       >
         <Input
+          value="********"
           type="password"
           id="password"
           disabled={isLoading}
@@ -70,6 +73,7 @@ function SignupForm() {
         error={errors?.passwordConfirm?.message}
       >
         <Input
+          value="********"
           type="password"
           id="passwordConfirm"
           disabled={isLoading}
@@ -82,19 +86,21 @@ function SignupForm() {
       </FormRow>
 
       <FormRow>
-        {/* type is an HTML attribute! */}
+        {/* disabled to true from isLoading */}
         <Button
           variation="secondary"
           type="reset"
-          disabled={isLoading}
+          disabled={true}
           onClick={reset}
         >
           Cancel
         </Button>
-        <Button disabled={isLoading}>Create New User</Button>
+        <Button disabled={true}>Create New User</Button>
       </FormRow>
     </Form>
   );
 }
 
 export default SignupForm;
+
+/* value is hard coded for demo */
