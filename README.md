@@ -29,11 +29,31 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
 - **Data Visualisation**: Beautiful graphical and statistical representations of data by Recharts.
 
-- **Filtering/Sorting**: Filtering and sorting options via React Query efficiently navigates through room inventory.
+- **Filtering/Sorting**: Filtering and sorting options via React Query efficiently navigates through room and guest data.
 
 - **UI/UX**: Clean User interface stylized by Styled Components. Light/Dark mode also enabled.
 
 - **(Note: User details and App settings data mutations (create, update, delete) are deactivated in this Demo app)**
+
+---
+
+## Demo
+
+Please visit (in a new tab): https://kokomo-resorts.vercel.app/
+
+![](/public/screenshot1.webp)
+
+![](/public/screenshot2.webp)
+
+![](/public/screenshot3.webp)
+
+![](/public/screenshot4.webp)
+
+![](/public/screenshot5.webp)
+
+![](/public/screenshot6.webp)
+
+![](/public/screenshot7.webp)
 
 ---
 
@@ -68,22 +88,3 @@ To run the Kokomo Resorts dashboard locally:
    ```
 
 5. Open your browser and visit `http://localhost:5173` to access.
-
-
-## Demo
-
-Please visit (in a new tab): https://kokomo-resorts.vercel.app/
-
-![](/public/screenshot1.webp)
-
-![](/public/screenshot2.webp)
-
-![](/public/screenshot3.webp)
-
-![](/public/screenshot4.webp)
-
-![](/public/screenshot5.webp)
-
-![](/public/screenshot6.webp)
-
-![](/public/screenshot7.webp)
