@@ -37,6 +37,26 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
 ---
 
+## Demo
+
+Please visit (in a new tab): https://kokomo-resorts.vercel.app/
+
+![](/public/screenshot1.webp)
+
+![](/public/screenshot2.webp)
+
+![](/public/screenshot3.webp)
+
+![](/public/screenshot4.webp)
+
+![](/public/screenshot5.webp)
+
+![](/public/screenshot6.webp)
+
+![](/public/screenshot7.webp)
+
+---
+
 ## 🌎 Getting Started
 
 ## Installation
@@ -68,22 +88,3 @@ To run the Kokomo Resorts dashboard locally:
    ```
 
 5. Open your browser and visit `http://localhost:5173` to access.
-
-
-## Demo
-
-Please visit (in a new tab): https://kokomo-resorts.vercel.app/
-
-![](/public/screenshot1.webp)
-
-![](/public/screenshot2.webp)
-
-![](/public/screenshot3.webp)
-
-![](/public/screenshot4.webp)
-
-![](/public/screenshot5.webp)
-
-![](/public/screenshot6.webp)
-
-![](/public/screenshot7.webp)
