@@ -27,7 +27,7 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
 - **React Query**: Data-fetching and state management library for React applications that simplifies fetching, caching, and updating data.
 
-- **Data Visualisation**: Beautiful graphical and statistical representations of data by Recharts.
+- **Data Visualisation**: Beautiful graphical (line graph & pie chart) and statistical representations of data by Recharts.
 
 - **Filtering/Sorting**: Filtering and sorting options via React Query efficiently navigates through room and guest data.
 
