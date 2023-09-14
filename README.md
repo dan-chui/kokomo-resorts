@@ -19,7 +19,7 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
 ## 💫 Features
 
-- **Modern Framework**: Utilizing React.js and custom React Hooks plus components to maximise application efficiency and reusability.
+- **Modern Framework**: Utilizing React.js and custom React Hooks plus components to maximise efficiency and reusability.
 
 - **Database**: Data management and storage are delivered by Supabase, which is an open-source Postgres database.
 
