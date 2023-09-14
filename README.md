@@ -21,7 +21,7 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
 - **Modern Framework**: Utilizing React.js and custom React Hooks plus components to maximise application efficiency and reusability.
 
-- **Database**: Data management and storage are delivered by Supabase which is an open-source Postgres database.
+- **Database**: Data management and storage are delivered by Supabase, which is an open-source Postgres database.
 
 - **Authentication**: Login, editing data and user management requires authentication and authorization. Supabase rule policies controls access.
 
