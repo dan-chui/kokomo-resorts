@@ -49,7 +49,6 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
 ![](/public/screenshot4.webp)
 
-![](/public/screenshot5.webp)
 
 ![](/public/screenshot6.webp)
 
