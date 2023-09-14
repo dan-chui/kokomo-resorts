@@ -33,7 +33,7 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
 - **UI/UX**: Clean User interface stylized by Styled Components. Light/Dark mode also enabled.
 
-- **(Note: User update and App settings data mutations (create, update, delete) are deactivated in this Demo app)**
+- **(Note: User details and App settings data mutations (create, update, delete) are deactivated in this Demo app)**
 
 ---
 
