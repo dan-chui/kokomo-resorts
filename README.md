@@ -5,6 +5,8 @@ Welcome to **Kokomo Resorts**!
 
 **Kokomo Resorts** is a comprehensive dashboard application that blends a beautiful user interface with powerful features. Users can efficiently handle resort bookings, room management, guest information, profile editing, and much more. Data is managed and organised by Supabase, which also provides authentication and data storage.
 
+Please visit (in a new tab): https://kokomo-resorts.vercel.app/
+
 ## 🚀 Technologies
 
 - React.js
@@ -25,12 +27,13 @@ Welcome to **Kokomo Resorts**!
 
 - **React Query**: Data-fetching and state management library for React applications that simplifies fetching, caching, and updating data.
 
+- **Data Visualisation**: Beautiful graphical and statistical representations of data by Recharts.
+
+- **Filtering/Sorting**: Filtering and sorting options via React Query efficiently navigates through room inventory.
+
 - **UI/UX**: Clean User interface stylized by Styled Components. Light/Dark mode also enabled.
 
-- **Data Visualisation**: Beautiful graphical representations of data by Recharts.
-
-
-- **(Note: User update and App settings data mutations (create, update, delete) are deactivated in this demo app)**
+- **(Note: User details and App settings data mutations (create, update, delete) are deactivated in this Demo app)**
 
 ---
 
@@ -65,3 +68,22 @@ To run the Kokomo Resorts dashboard locally:
    ```
 
 5. Open your browser and visit `http://localhost:5173` to access.
+
+
+## Demo
+
+Please visit (in a new tab): https://kokomo-resorts.vercel.app/
+
+![](/public/screenshot1.webp)
+
+![](/public/screenshot2.webp)
+
+![](/public/screenshot3.webp)
+
+![](/public/screenshot4.webp)
+
+![](/public/screenshot5.webp)
+
+![](/public/screenshot6.webp)
+
+![](/public/screenshot7.webp)
