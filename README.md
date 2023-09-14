@@ -29,7 +29,7 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
 - **Data Visualisation**: Beautiful graphical and statistical representations of data by Recharts.
 
-- **Filtering/Sorting**: Sorting and filtering options via React Query efficiently navigates through room inventory.
+- **Filtering/Sorting**: Filtering and sorting options via React Query efficiently navigates through room inventory.
 
 - **UI/UX**: Clean User interface stylized by Styled Components. Light/Dark mode also enabled.
 
