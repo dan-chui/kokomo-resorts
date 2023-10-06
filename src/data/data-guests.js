@@ -103,8 +103,8 @@ export const guests = [
     countryFlag: "https://flagcdn.com/eg.svg",
   },
   {
-    fullName: "John Doe",
-    email: "johndoe@gmail.com",
+    fullName: "Steve Rogers",
+    email: "captain@gmail.com",
     nationality: "United States",
     nationalID: "3245908744",
     countryFlag: "https://flagcdn.com/us.svg",
