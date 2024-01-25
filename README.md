@@ -7,6 +7,8 @@ Welcome to **Kokomo Resorts**!
 
 Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 
+**No Login Credentials are required. Please select 'Login' to access.**
+
 ## 🚀 Technologies
 
 - React.js
@@ -40,6 +42,8 @@ Please visit (in a new tab): https://kokomo-resorts.vercel.app/
 ## Demo
 
 Please visit (in a new tab): https://kokomo-resorts.vercel.app/
+
+**No Login Credentials are required. Please select 'Login' to access.**
 
 ![](/public/screenshot1.webp)
 
